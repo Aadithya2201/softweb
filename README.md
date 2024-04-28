@@ -914,11 +914,10 @@ contact.html
 ```
 
 ## OUTPUT:
-
-Screenshot (37).png
-Screenshot (38).png
-Screenshot (39).png
-Screenshot (41).png
+![alt text](<Screenshot (37).png>)
+![alt text](<Screenshot (38).png>)
+![alt text](<Screenshot (39).png>)
+![alt text](<Screenshot (41).png>)
 
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
