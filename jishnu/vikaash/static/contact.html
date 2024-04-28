@@ -1,0 +1,248 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Coding Platform </title>
+        <style type="text/css">
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .banner {
+                width: 100%;
+                height: 100vh;
+                background-image: url("bb ai.jpg");
+                background-size: cover;
+                background-position: center;
+            }
+            .navbar {
+                width: 80%;
+                margin: auto;
+                padding: 35px 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .logo {
+                color:#f775db;
+                font-size: 40px;
+                font-weight: 700;
+                letter-spacing: 3px;
+            }
+            span {
+                color: white;
+            }
+            ::placeholder {
+                color: white;
+            }
+            
+            .home {
+                margin: -5px -5px;
+                border: 2px solid#f775db;
+                padding: 13px 35px;
+                letter-spacing: 1px;
+                color: black;
+                border-radius: 30px;
+                background-color:#f775db;
+                text-decoration: none;
+                
+                
+            }
+            .home:hover {
+                border: 2px solid#f775db;
+                color:#f775db;
+                background-color: black;
+                transition: 0.5s;
+                cursor: pointer;
+            } 
+            .people {
+                margin: -5px -5px;
+                border: 2px solid#f775db;
+                padding: 13px 35px;
+                letter-spacing: 1px;
+                color: black;
+                border-radius: 30px;
+                background-color:#f775db;
+                text-decoration: none;
+            }
+            .people:hover {
+                border: 2px solid#f775db;
+                color:#f775db;
+                background-color: black;
+                transition: 0.5s;
+                cursor: pointer;
+            } 
+            .product {
+                margin: -5px -5px;
+                border: 2px solid#f775db;
+                padding: 13px 35px;
+                letter-spacing: 1px;
+                color: black;
+                border-radius: 30px;
+                background-color:#f775db;
+                text-decoration: none;
+                
+            }
+            .product:hover {
+                border: 2px solid#f775db;
+                color:#f775db;
+                background-color: black;
+                transition: 0.5s;
+                cursor: pointer;
+            } 
+            .contact {
+                margin: -5px -5px;
+                border: 2px solid #f775db;
+                padding: 13px 35px;
+                letter-spacing: 1px;
+                color: #f775db;
+                border-radius: 30px;
+                background-color:black;
+                text-decoration: none;
+            }
+            .contact:hover {
+                border: 2px solid#f775db;
+                color:#f775db;
+                background-color: black;
+                transition: 0.5s;
+                cursor: pointer;
+            } 
+            .box {
+                display: flex;
+                column-gap: 40px;
+                background: transparent;
+                position: relative;
+                top: 50px;
+            }
+            .box-1 {
+                height: 400px;
+                width: 400px;
+                border: 3px solid #f775db;
+                border-radius: 20px;
+                background: transparent;
+                position: relative;
+                left: 400px;
+            }
+            .box-2 {
+                height: 400px;
+                width: 400px;
+                border: 3px solid#f775db;
+                border-radius: 20px;
+                background: transparent;
+                position: relative;
+                left: 450px;
+            }
+            .box-1 form {
+                display: flex;
+                color: white;
+                background: transparent;
+                padding: 30px;
+                font-size: 15px;
+                position: relative;
+                top: 15px;
+            }
+            .box-1 form input {
+                background: transparent;
+                display: flex;
+                border: 1px solid #f775db;
+                border-radius: 10px;
+                padding: 15px 30px;
+                font-size: 22px;
+                color: white;
+                position: relative;
+                top: 30px;
+            }
+            .box-1 form textarea {
+                background: transparent;
+                color: white;
+                padding: 10px 43px;
+                position: relative;
+                top: 30px;
+                font-size: 22px;
+                left: 0px;
+                border: 1px solid #f775db;
+                border-radius: 10px;
+            }
+            .box-1 form button {
+                border: 0;
+                outline: none;
+                padding: 10px 20px;
+                color: black;
+                border-radius: 30px;
+                background:#f775db;
+                cursor: pointer;
+                position: relative;
+                top: 50px;
+            }
+            .box-1 form button:hover {
+                border: 2px solid#f775db;
+                color:#f775db;
+                background-color: black;
+                transition: 0.5s;
+                cursor: pointer;
+            } 
+            .box-2 h2 {
+                color: white;
+                position: relative;
+                top: 25px;
+                left: 50px;
+                font-size: 30px;
+            }
+            .box-2 p {
+                font-size: large;
+                color: white;
+                position: relative;
+                top: 50px;
+                padding: 10px 80px;
+            }
+            .box-2 span {
+                color:#f775db;
+                font-size: 20px;
+            }
+            footer {
+                background-image:#f775db;
+                margin-top: auto;
+            }
+        </style>
+    </head>
+<body>
+    <div class="banner">
+        <br>
+        <div class="navbar">
+            <h1 class="logo">BLACKBOX AI</h1>
+            <ul>
+                <button type="submit"><li><a href="http://127.0.0.1:8000/static/home.html" class="home"> Home </a></li></button>
+                <button type="submit"><li><a href="http://127.0.0.1:8000/static/product.html" class="product"> Product </a></li></button>
+                <button type="submit"><li><a href="http://127.0.0.1:8000/static/people.html" class="people"> Creators </a></li></button>
+                <button type="submit"><li><a href="http://127.0.0.1:8000/static/contact.html" class="contact"> About us  </a></li></button>
+            </ul>
+            
+        </div>
+        <div class="box">
+            <div class="box-1">
+                <form>
+                    <center>
+                        <h1>  Contact Us </h1>
+                        <input type="text" placeholder="Enter Your Name">
+                        <br>
+                        <input type="email" placeholder="Enter Your Email">
+                        <br>
+                        <textarea rows="0" cols="20" placeholder="Your Message"> </textarea>
+                        <br>
+                        <button type="submit" align="center"> Submit </button>
+                    </center>
+                </form>
+            </div>
+            <div class="box-2"> 
+                <h2> Contact Information </h2>
+                <p> <span>Address</span> : No.14/175,Venkateshwara Nagar ,Pozhichalur,Chennai-600074 </p>
+                <p> <span>Email</span> : aadithya.ramku@gmail.com </p>
+                <p> <span>Phone</span> : 9342562668 </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <center> Designed and Developed by AADITHYA R(212223240001) </center>
+    </footer>
+</body>
+</html>
